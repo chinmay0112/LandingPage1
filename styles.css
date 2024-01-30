@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.top-bar-1{
+    background-color: #f3f3f3;
+    display: flex;
+    gap: 2rem;
+    height: 3.1rem;
+    justify-content: center;
+    padding: 0.3rem 0rem;
+}
+
+.top-bar-1 p{
+    color: #000;
+}
+
+
+.GovtOfIndia h4, .GovtOfIndia p {
+    margin: 0; 
+    padding: 0; 
+    font-size: 1rem;
+   
+}
+
+.Meity h4, .Meity p{
+margin: 0;
+padding: 0;
+font-size: 1rem;
+}
+
+
+
+.v1{
+    border: 1px solid #7F7F7F;
+    width: 0px;
+height: 35px;
+opacity: 0.5;
+}
+
+
+
+.top-bar-2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0.65rem;
+    
+}
+
+.img2{
+    margin-top: 0.7rem;
+}
+
+.hero-section {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(./top_banner_bg.svg);
+    background-size: cover;
+    background-position: center; 
+    
+}
+
+ 
+
+  
+  .hero-txt {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 0.9em;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+}
+
+  .hero-txt a {
+    color: #fff; 
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.hero-txt a:hover{
+    color: #c2c2c2;
+}
+
+.container-fluid{
+    margin-top: 4rem;
+}
+.lead{
+    color: #fff;
+}
+
+.API{
+    color: #fff;
+}
+
+.hero-button{
+    background-color: white;
+    color: #4365F1;
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.secondary{
+   
+text-decoration: none;
+color: #fff;
+margin-top: 11px;
+}
+
+
+
+.hero-button1{
+    
+    border: none;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 3.5rem;
+    justify-content: center;
+}
+.heading h2{
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.heading p{
+   
+    text-align: center;
+    color: #8f8f8f;
+    
+}
+
+.features1{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+    
+}
+
+.my-card{
+    display: flex;
+    flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+ width: 12%;
+ height: 200px;
+ border-radius: 10px;
+ transition: transform 0.3s ease;
+ 
+}
+
+.my-card h5{
+    font-weight: 800;
+    padding-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.my-card p{
+    color: #8f8f8f;
+}
+
+.my-card:hover {
+    transform: scale(1.1); 
+}
+
+.heading-title1 h2{
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Awesome-Features{
+    display: flex;
+    margin: 7rem 0;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.Awesome-Features img{
+    object-fit: contain;
+}
+
+.api-publisher{
+    background-image: url(./API_Publisher_bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+ 
+    text-align: center;
+}
+
+.publish-title{
+    padding-top: 5.5rem;
+  
+}
+.api-publisher h2,p{
+    
+    color: #fff;
+}
+.api-publisher h2{
+    
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+
+.publish-title p{
+    
+    padding-top: 1.5rem;
+ 
+      
+}
+.api-card-element{
+    display: flex;
+    flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background-color: #fff;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+ width: 30%;
+ height: 350px;
+ border-radius: 10px;
+ 
+}
+
+
+.api-card-element h5{
+    font-weight: 800;
+    padding-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.api-card-element p{
+    color: #8f8f8f;
+}
+
+.api-cards{
+    display: flex;
+    justify-content: center;
+    gap: 1.3rem;
+    margin-top: 4rem;
+}
+
+.FAQ{
+    background-image: url(./Group\ 44586.png);
+    height: 765px;
+}
+.FAQ-title{
+   padding-top: 3rem;
+    text-align: center;
+}
+
+.FAQ-title h2{
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.FAQ-title p{
+    color: #575757;
+}
+
+.info-card{
+    display: flex;
+  justify-content: center;
+
+
+ 
+}
+
+.faq-card{
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+   margin-top: 2rem;
+   
+    width: 80%;
+    min-height: 510px;
+    border-radius: 20px;
+}
+
+.faq-card p{
+    color: #575757;
+    z-index: 4;
+}
+
+.toggle-info {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, opacity 0.5s ease; 
+}
+
+.toggle-info p {
+    margin-left: 48px;
+    padding-right: 3rem;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+}
+
+.toggleButton {
+    border: none;
+    background-color: #fff;
+    color: #4769F1;
+    font-size: 2.5rem;
+    width: 30px;
+}
+
+.visible {
+    max-height: 1000px;
+}
+
+.visible p {
+    opacity: 1; 
+}
+
+.faq-elements {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.faq-elements h5 {
+    padding-left: 1rem;
+    margin-top: 14px;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.icons{
+    margin-top: 2.5rem;
+    font-size: 1.3rem;
+}
+
+.terms{
+    background-color: #2a2a2a;
+    height: 2.5rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    
+    
+}
+
+footer{
+    background-color: #0c0c0c;
+    color: #fff;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 350px;
+}
+
+footer span{
+    color: #A3f2d9;
+}
+
+.Last-Updated{
+    margin-top: 2rem;
+}
+
+.footer-logos{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2.5rem;
+}
+
+.timeline {
+    position: relative;
+    max-width: 800px;
+    width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.event {
+    position: relative;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    animation: fadeInUp 0.8s ease-out;
+}
+
+.bullet {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #3498db;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.event-content {
+    max-width: 60%;
+    margin-left: 40px;
+}
+
+
+
+h3, p {
+    margin: 0;
+    color: #333;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
